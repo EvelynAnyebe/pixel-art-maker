@@ -23,8 +23,7 @@ function makeGrid(e) {
 
   const height = inputHeight.value;
   const width = inputWidth.value;
-  console.log(color.value, inputHeight.value, inputWidth.value);
-  // Your code goes here!
+  // nested loop
   for (let i = 1; i <= height; i++) {
     //row element is created
     const row = document.createElement("tr");
@@ -44,5 +43,5 @@ function makeGrid(e) {
 sizePicker.addEventListener("submit", makeGrid);
 
 pixelCanvas.addEventListener("click", function (e) {
-  console.log(e.target);
+  e.target.style.backgroundColor = color.value;
 });
