@@ -25,9 +25,9 @@ h2:first-of-type {
   margin-top: 0.5em;
 }
 
-.card {
+.container {
   margin: 10px auto;
-  width: 80%;
+  width: 90%;
   padding: 10px;
   border: 1px solid #f1f1f1;
   box-shadow: 3px 3px 3px 0px #f1f1f1;
